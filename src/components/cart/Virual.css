@@ -1,0 +1,106 @@
+.first{
+    margin-top: 0%;
+}
+
+.all{
+    margin-left: 3%;
+    margin-right: 3%;
+   
+}
+
+h2{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+p{
+    margin-top: 5%;
+}
+
+
+.img-1{
+    border-radius: 0%;
+    margin-left: 0%;
+    height:30%;
+    width: 100%;
+}
+
+.h-2{
+    margin-top:0%;
+    margin-left:0%;
+}
+
+.viru-1{
+   
+    margin-right: 0%;
+}
+
+.img-2{
+    
+    position: absolute;
+    
+}
+
+.button-1{
+    border-radius: 20%;
+    margin-left: 75%;
+    
+}
+
+
+
+.button-11{
+    border-radius: 20%;
+    margin-left: 45%;
+    margin-top:7%;
+    border-color: black;
+    
+}
+
+.button-text{
+    margin-left:43%;
+}
+
+button{
+    color: rgb(44, 44, 54);
+    background-color: rgb(235, 98, 67);
+    border-radius: 15px;
+}
+
+.button-2{
+    margin-left:43%;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.button-3{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.upload-img{
+    margin-left: 0%;
+    
+
+
+}
+
+.explor{
+    margin-left: 10%;
+}
+
+.img-3{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    
+    color: brown;
+  
+  
+
+}
+.img-4{
+    size:4px;
+   
+}

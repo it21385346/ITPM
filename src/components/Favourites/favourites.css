@@ -1,0 +1,70 @@
+/* styles.css */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.six-dresses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px; /* Adjust max-width as needed */
+}
+.dress-card {
+    border: 7px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(to bottom right, #4CAF50, #2196F3);
+}
+
+/* Adjust styles for medium-sized screens */
+@media screen and (max-width: 768px) {
+    .dress-card {
+        width: calc(33.33% - 20px); /* Adjust the width to fit three cards in a row */
+        margin: 10px;
+    }
+}
+
+/* Adjust styles for small-sized screens */
+@media screen and (max-width: 576px) {
+    .dress-card {
+        width: calc(50% - 20px); /* Adjust the width to fit two cards in a row */
+    }
+}
+
+/* Additional styles for images */
+.dress-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styles for headings and paragraphs */
+.dress-card h3 {
+    margin-top: 10px;
+}
+
+.dress-card p {
+    margin: 5px 0;
+}
+
+/* Additional styles for buttons */
+.dress-card button {
+    background: linear-gradient(to bottom, #000000, #836969);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dress-card button:hover {
+    background-color: #0056b3;
+}
